@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
         okBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                String enteredName = okBtn.getText().toString();
-//
+
 //                Intent intent = new Intent();
 //                /*intent.setAction("in.co.visiontek.appnavigation.ACTION_NAME");*/
 //                intent.putExtra("name", enteredName);
