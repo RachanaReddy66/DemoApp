@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         okBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                        System.out.println("===== onClick");
 //                String enteredName = okBtn.getText().toString();
 //
 //                Intent intent = new Intent();
@@ -62,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+        System.out.println("onStart");
         Log.e("MainActivity","onStart");
     }
 
