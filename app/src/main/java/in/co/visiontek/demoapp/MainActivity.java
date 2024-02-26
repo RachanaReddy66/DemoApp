@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     Button okBtn;
     EditText edtTxt;
+    Textview txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
