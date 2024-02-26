@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        System.out.println("=== onResume");
         super.onResume();
         Log.e("MainActivity","onResume");
         //System.out.println("onresume**********");
