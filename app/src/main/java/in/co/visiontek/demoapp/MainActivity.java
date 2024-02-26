@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("===== onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("MainActivity","onCreate");
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+        System.out.println("onStart");
         Log.e("MainActivity","onStart");
     }
 
